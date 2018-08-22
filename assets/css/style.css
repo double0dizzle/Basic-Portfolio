@@ -177,43 +177,49 @@ h2 {
 }
 
 #BikeBet {
-    position: absolute;
-    bottom: 400px;
-    right: 562px;
-    background-color: #4aaaa5;
+    /* position: absolute; */
+    /* bottom: 400px;
+    right: 562px; */
+    /* background-color: #4aaaa5; */
+    float: left;
 }
 
 #crystal {
-    position: absolute;
-    bottom: 400px;
-    right: 400px;
-    background-color: #4aaaa5;
+    /* position: absolute; */
+    /* bottom: 400px;
+    right: 400px; */
+    /* background-color: #4aaaa5; */
+    float: left;
 }
 
 #BoldlyGo {
-    position: absolute;
+    /* position: absolute;
     bottom: 250px;
     right: 549px;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5; */
+    float: left;
 }
 
 #Gif {
-    position: absolute;
+    /* position: absolute;
     bottom: 250px;
     right: 420px;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5; */
+    float: left;
 }
 
 #wc {
-    position: absolute;
+    /* position: absolute;
     bottom: 90px;
     right: 569px;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5; */
+    float: left;
 }
 
 #train {
-    position: absolute;
+    /* position: absolute;
     bottom: 90px;
     right: 398px;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5; */
+    float: left;
 }
