@@ -5,7 +5,7 @@ body {
 }
 
 #name{ 
-    background: #4aaaa5;
+    background:#A93226;
     color: #ebebeb;
     width: 15%;
     text-align: center;
@@ -14,6 +14,8 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 380px;
     float: left;
+    border-radius: 40px 40px 0px 0px;
+    opacity: .7;
 }
 
 .clearfix:after {
@@ -37,35 +39,52 @@ aside {
 
 #top {
     margin-top: 40px;
+    background-color: black;
 
 }
 
 #backdrop {
     width: 100%;
-    background: #275064;
+    /* background: #275064; */
     padding-top: 10px;
-    height: 600px;
+    height: 1000px;
     border-top: 2px solid #464073;
+    /* background-image: url("../images/waterfall.jpg"); */
+    /* background-size: 1710px 2000px; */
+    background-image: url("../images/about.jpg");
+    background-size: 1700px 1020px
     
     
 }
 
 #about {
-    width: 960px;
-    background: #ffffff;
-    margin-left: 380px;
-    border: 2px solid #131304;
-
+    width: 640px;
+    background: #ffffff ;
+    margin-left: 680px;
+    /* border: 2px solid #131304; */
+    /* background-image: url("../images/waterfall.jpg"); */
+    /* background-image: url("../images/about.jpg"); */
+    color: black;
+    opacity: .7;
+    border-radius: 25px;
     
-     
+    
 }
 
-h1 {
+.header{
+    margin-left: 10px;
+    text-align: center;
+}
+.header span {
     font-size: 150%;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 10px;
-    color:#4aaaa5;
+    color: black;
     
+}
+.header span:nth-child(2n+1) {
+    font-size: 150%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: green;
 }
 
 #image {
@@ -74,19 +93,27 @@ h1 {
 }
 
 #blurb {
-    float: left;
+    /* float: left;
     width: 72%;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    margin-top: 0px;
-    line-height: 28px;
+    color: black;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 18px;
+    margin-right: 50px;
   
 }
 
 #pic {
     float: left;
+    width: 450px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 90px;
 }
 
 #line {
@@ -95,22 +122,24 @@ h1 {
     color: #9AA5AA;
 }
 
-#p2 {
+     /* #p2 {
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 0px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 28px;
-    margin-right: 90px;
+    color: black;
+     line-height: 28px; 
+     margin-right: 90px; 
+     opacity: .3; 
 }
 
 #p3 {
-    margin-left: 20px;
-    margin-right: 80px;
+     margin-left: 20px;
+    margin-right: 80px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 28px;
-}
+    color: black;
+     line-height: 28px; 
+     opacity: .3; 
+}  */
 
 #thick {
     color: #9AA5AA;
@@ -222,4 +251,8 @@ h2 {
     right: 398px;
     background-color: #4aaaa5; */
     float: left;
+}
+
+html {
+    background-color: black;
 }
