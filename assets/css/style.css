@@ -131,6 +131,7 @@ aside {
     background-image: url("../images/waterfall.jpg");
     /* background-size: 1710px 2000px; */
     background-size: 1520px 1020px;
+    /* background-size: cover; */
 }
 
 #about {
@@ -405,8 +406,34 @@ html {
     font-family: 'Patua One', cursive;
     color: black;
     text-align: center;
+    /* background-size: cover; */
 }
 #c-pic{
     width: 180px;
     height: 180px;
+}
+
+@media screen and (max-width: 1076px) {
+    #contact {
+         /* background-color: #131304; */
+         width: 1200px;
+    height: 1000px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact {
+         /* background-color: #131304; */
+         width: 1200px;
+    height: 1200px;
+    background-size: cover;
+    }
+}
+@media screen and (max-width: 280px) {
+    #contact {
+         /* background-color: #131304; */
+         width: 1200px;
+    height: 1200px;
+    background-size: cover;
+    }
 }
