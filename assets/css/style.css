@@ -65,6 +65,7 @@ button {
     border-radius: 40px 40px 40px 40px;
     opacity: .7;
     font-family: 'Patua One', cursive;
+    
 }
 #mike{
     font-size: 35px;
@@ -78,7 +79,7 @@ button {
   }
 
 aside {
-    width: 25%;
+    /* width: 25%; */
     text-align: center;
     padding: 30px 10px;
     float: left;
@@ -88,8 +89,8 @@ aside {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-bottom: 0px;
-
 }
+
 
 #top {
     margin-top: 40px;
@@ -107,8 +108,18 @@ aside {
     /* background-size: 1710px 2000px; */
     background-image: url("../images/about.jpg");
     background-size: 1700px 1020px
-    
-    
+}
+
+#p-backdrop {
+    width: 100%;
+    /* background: #275064; */
+    padding-top: 10px;
+    height: 1000px;
+    border-top: 2px solid #464073;
+    /* background-image: url("../images/waterfall.jpg"); */
+    /* background-size: 1710px 2000px; */
+    background-image: url("../images/portfolio-backdrop.jpg");
+    background-size: 1530px 1000px;
 }
 
 #about {
@@ -318,6 +329,52 @@ h2 {
     float: left;
 }
 
+#works {
+   text-align: center;
+   font-size: 30px; 
+}
+
+#port1 {
+    width: 20%;
+    float: left;
+    margin-left: 200px;
+}
+#port2 {
+    width: 20%;
+    float: left;
+    margin-left: 130px;
+}
+#port3 {
+    width: 20%;
+    float: left;
+    margin-left: 130px;
+}
+
 html {
     background-color: black;
+}
+
+.b1{
+    background-color: rgb(11, 75, 11);; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: not-allowed;
+    width: 228px;
+    border-radius: 12px;
+}
+.b1:hover {
+    background-color: blue; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.b2 {
+    color: red;
 }
