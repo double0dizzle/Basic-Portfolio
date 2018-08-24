@@ -15,7 +15,8 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: not-allowed;
 }
 #button1 {
     background-color: white; 
@@ -120,6 +121,16 @@ aside {
     /* background-size: 1710px 2000px; */
     background-image: url("../images/portfolio-backdrop.jpg");
     background-size: 1530px 1000px;
+}
+#contact {
+    width: 100%;
+    /* background: #275064; */
+    padding-top: 10px;
+    height: 1000px;
+    border-top: 2px solid #464073;
+    background-image: url("../images/waterfall.jpg");
+    /* background-size: 1710px 2000px; */
+    background-size: 1520px 1020px;
 }
 
 #about {
@@ -266,6 +277,7 @@ input[type=submit]:hover {
     padding: 20px;
     width: 45%;
     margin-left: 25%;
+    margin-top: 30px;
 }
 
 h2 {
@@ -377,4 +389,9 @@ html {
 
 .b2 {
     color: red;
+}
+
+#portdiv {
+    width: 100%;
+    margin-top: 350px;
 }
