@@ -115,12 +115,13 @@ aside {
     width: 100%;
     /* background: #275064; */
     padding-top: 10px;
-    height: 1000px;
+    height: 1300px;
     border-top: 2px solid #464073;
     /* background-image: url("../images/waterfall.jpg"); */
     /* background-size: 1710px 2000px; */
     background-image: url("../images/portfolio-backdrop.jpg");
-    background-size: 1530px 1000px;
+    /* background-size: 1530px 1000px; */
+    background-size: 1520px 1510px;
 }
 #contact {
     width: 100%;
