@@ -410,7 +410,7 @@ html {
 }
 #c-pic{
     width: 180px;
-    height: 180px;
+    height: 200px;
 }
 
 @media screen and (max-width: 1076px) {
@@ -444,28 +444,27 @@ html {
     background-size: cover;
     }
 }
-@media screen and (max-width: 264px) {
+/* @media screen and (max-width: 264px) {
     aside {
         margin-left: 0px;
     }
-}
+} */
 
-@media screen and (max-width: 240px) {
+/* @media screen and (max-width: 240px) {
     #aWord {
         width: 700px;
     }
-}
-@media screen and (max-width: 240px) {
     aside {
         margin-left: 0px;
     }
-}
+} */
 
-@media screen and (max-width: 1304px) {
+
+ /* @media screen and (max-width: 1304px) {
     #backdrop {
         width: 1800px;
-    }
-}
+    } */
+
 @media screen and (max-width: 650px) {
     #backdrop {
         width: 1700px;
@@ -480,17 +479,16 @@ html {
 width: 600px;
     }
 }
-@media screen and (max-width: 300px) {
-    #backdrop {
-        width: 700px;
-        background-size: cover;
-    }
-}
+
 @media screen and (max-width: 300px) {
     #about {
         width: 600px;
 float: left;
 margin-left: 0px;
+    }
+    #backdrop {
+        width: 700px;
+        background-size: cover;
     }
 }
 
