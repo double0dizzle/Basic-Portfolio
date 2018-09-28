@@ -431,11 +431,11 @@ html {
     }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     aside {
         margin-left: 0px;
     }
-}
+} */
 
 @media screen and (max-width: 280px) {
     #contact {
@@ -481,7 +481,7 @@ width: 600px;
     }
 }
 
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
     #about {
         width: 600px;
 float: left;
@@ -491,5 +491,5 @@ margin-left: 0px;
         width: 700px;
         background-size: cover;
     }
-}
+} */
 
